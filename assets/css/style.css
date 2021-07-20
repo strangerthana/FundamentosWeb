@@ -1,0 +1,67 @@
+/* Estilos da página index.html */
+body {
+   text-align: center;
+   font-family: 'Comfortaa', cursive;
+}
+
+p{
+    font-size: 20px;
+}
+
+.menu li{
+    display: inline;
+
+    padding: 24px;
+
+    text-decoration: none;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: black;
+    font-size: 21px;
+    padding: 30px;
+}
+
+.menu li a:hover{
+    color: gray;
+}
+
+.tm-social {
+    width: 40px;
+    height: 40px;
+    padding: 15px;
+}
+
+.justify{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    
+}
+
+form{
+    padding: 30px;
+}
+
+.p-30{
+    padding: 50px;
+}
+
+.br-50{
+    border-radius: 50%;
+}
+
+.head{
+    background-color: black;
+    text-decoration: white;
+    color: white;
+}
+
+/* Estilos da página contato.html */
+
+
