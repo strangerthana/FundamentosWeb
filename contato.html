@@ -34,17 +34,16 @@
                 <br>
                 <label for="assunto">Assunto:</label> <br>
                 <textarea name="assunto" id="assunto" cols="40" rows="5" onkeyup="validaAssunto()"></textarea>
-        
+                <div id="txtAssunto"></div>
                 <br>
-                <br>
-                <button>Enviar</button>
+                <button onclick="enviar()">Enviar</button>
             </form>
             
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14618.43638657565
     !2d-46.66792177044008!3d-23.654166354188582!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!
     1s0x94ce5abd1c9c3ff5%3A0xb64ad2f9fa54c2ea!2sSouth%20Zone%20of%20S%C3%A3o%20Paulo%20-%20Vila%20Santa%20Catarina%
     2C%20S%C3%A3o%20Paulo%20-%20State%20of%20S%C3%A3o%20Paulo%2C%2004379-060!5e0!3m2!1sen!2sbr!4v1626457380948!5m2!1sen!2sbr"
-     width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+     width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" onmousemove="mapaZoom()" onmouseout="mapaNormal()" id = 'mapa'></iframe>
     </div>
     
      <hr>
