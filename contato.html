@@ -8,29 +8,32 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <ul class="menu">
-        <li>
-            <a href="index.html"> Home</a>
-        </li>
-        <li>
-            <a href="contato.html">Contato</a>
-        </li>
-    </ul>
-    <h1>
-        Entre em contato comigo:
-    </h1>
+    <header>
+        <ul class="menu">
+            <li>
+                <a href="index.html"> Home</a>
+            </li>
+            <li>
+                <a href="contato.html">Contato</a>
+            </li>
+        </ul>
+        <h1>
+            Entre em contato comigo:
+        </h1>
+    </header>
+    
     <div class="container">
             <form >
                 <label for="nome">Nome:</label> <br>
-                <input type="text" id="nome">
-                <br>
+                <input type="text" id="nome" onkeyup="validaNome()">
+                <div id="txtNome"></div>
                 <br>
                 <label for="email">Email:</label> <br>
-                <input type="email" id="email">
-                <br>
+                <input type="email" id="email" onkeyup="validaEmail()">
+                <div id="txtEmail"></div>
                 <br>
                 <label for="assunto">Assunto:</label> <br>
-                <textarea name="assunto" id="assunto" cols="40" rows="5"></textarea>
+                <textarea name="assunto" id="assunto" cols="40" rows="5" onkeyup="validaAssunto()"></textarea>
         
                 <br>
                 <br>
@@ -61,5 +64,7 @@
             Todos os direitos reservados: Thana Rodrigues. &copy
            </p>
         </footer>
+
+        <script src="assets/js/script.js"></script>
 </body>
 </html>

@@ -1,5 +1,6 @@
 /* Estilos da página index.html */
 body {
+    background-color: lightgray;
    text-align: center;
    font-family: 'Comfortaa', cursive;
 }
@@ -7,7 +8,10 @@ body {
 p{
     font-size: 20px;
 }
-
+header{
+    background-color: pink;
+    border-radius: 10px;
+}
 .menu li{
     display: inline;
 
@@ -45,7 +49,7 @@ p{
 }
 
 form{
-    padding: 30px;
+    padding: 60px;
 }
 
 .p-30{
